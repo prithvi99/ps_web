@@ -1,0 +1,563 @@
+/* Color Scheme -
+1. #05dfd7 (tourquise)
+2. #a3f7bf (Greenish)
+3. #00b7eb
+4. #03132c
+5. #f66e60
+6. #064969
+7. #f6ed80*/
+
+@font-face {
+    font-family: 'Richie Brusher Richie Brusher';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Richie Brusher Richie Brusher'), url('Richie Brusher.woff') format('woff');
+}
+
+body {
+  text-align: center;
+  font-family: Montserrat;
+
+}
+
+.header {
+  width: 100%;
+  /* color: #fff; */
+  /* background-image: url(images/forest_1680x1050.jpg); */
+
+}
+
+#title h1 {
+  color: #f6ed80;
+  font-family: "RichieBrusher.ttf";
+  font-size: 7rem;
+  line-height: 1.5;
+
+  /* font-family: sans-serif; */
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+#title h5 {
+  color: #f6ed80;
+  font-family: "Montserrat-Black";
+  line-height: 1.5;
+
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.background-image {
+  /* background-image: url(images/forest_1680x1050.jpg);
+  height: 950px;
+  background-size: cover; */
+  position: relative;
+  width: 100%;
+}
+
+.menu-bar {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  background: rgba(0,0,0,0.2);
+  width: 100%;
+  color: #fff !important;
+}
+
+#navbar-a .navbar-default .navbar-brand {
+    color: #d6d6d6;
+}
+
+#navbar a {
+  color: #f6ed80;
+  border-color:  #f6ed80;
+}
+
+#navbar-a a {
+  color: #fff !important;
+}
+/* .nav-link:hover {
+  background-color: #fff;
+} */
+
+/* #navbar, .menu-bar {
+
+  position: fixed;
+  background: ;
+  padding: 0px 20px;
+  width: 100%;
+  color: #f2f2f2;
+} */
+
+
+#title {
+
+
+
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+/* -------------------------------About--------------------------------- */
+
+
+.twp {
+  top: 10%;
+  width: 300px;
+  border-radius: 50%;
+
+
+ position: relative;
+ bottom: 50%;
+
+
+}
+
+#about {
+  text-align: center;
+  padding:2rem 0 6rem;
+
+}
+
+.about-h2 {
+  padding: 10px 15px;
+}
+
+.about-me {
+  padding-top: 1rem;
+  position: relative;
+  /* bottom: 30%; */
+  margin: 0 auto 0px;
+  position: relative;
+  background: #fff;
+  border-radius: 1px;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 50, 0.5); */
+  padding-bottom: 1rem;
+}
+
+.about-me ::after {
+  content: '';
+  height: 200px;
+  width: 500px;
+  background-color: #f6ed80;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+}
+
+.about-me ::before {
+  content: '';
+  height: 200px;
+  width: 500px;
+  background-color: #f6ed80;
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  z-index: -1;
+}
+
+#about h2 {
+  color: #064969;
+}
+
+#about h3 {
+  color: Black;
+  /* color: #f6ed80; */
+}
+
+/* #about p {
+  border-style: solid;
+  border-color: #064969;
+} */
+
+.default {
+  border-color: #064969;
+  /* border-color: #e7e7e7; */
+  color: #064969;
+}
+.default:hover {
+  background: #064969;
+  color: #fff;
+}
+
+/* -------------------------------skills--------------------------------- */
+
+
+.skills {
+  text-align: center;
+  padding: 5%;
+}
+
+
+.skills-img{
+
+  width: 100%;
+
+  background-image: url(images/coding.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  text-align: center;
+
+  /* height: 600px; */
+  /* opacity: 70%;
+  color: #064969; */
+  /* position: relative; */
+}
+
+.skills-img {
+  position: relative;
+}
+
+.skills-img > * {
+  z-index: 10;
+  position: relative;
+}
+
+.skills-img::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  background-image: linear-gradient();
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .6;
+  z-index: 0;
+}
+
+#skills{
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: : 20px;
+}
+
+h3 {
+  color: #fff;
+}
+
+.symbols{
+  color: #f6ed80 !important;
+  opacity: 100% !important;
+}
+
+/* #skills i {
+  color: #064969;
+
+} */
+
+/* .icon {
+  color: #064969;
+  opacity: 100% !important;
+} */
+
+.icon:hover {
+  color: #064969;
+}
+
+.skills:hover, .skills h3:hover {
+  color: #064969;
+}
+
+.skills h3 {
+  color: #f6ed80;
+}
+
+/* #skills h3 {
+  color: #f6ed80;
+} */
+
+#skills h2 {
+  color: #064969;
+  background-color: #fff;
+  padding-bottom: 10px;
+
+}
+
+/* #skills h3:hover {
+  color: #064969;
+} */
+
+
+/* ----------------------------------Contact-------------------------------- */
+/* .contact {
+  margin-top: 100px;
+
+}
+
+form {
+  margin-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+width:50%;
+
+}
+
+.form-control {
+  width: 600px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+} */
+
+
+#contact h2 {
+  color: #064969;
+  padding-top: 20px;
+}
+
+form {
+  /* padding: 10% 10%; */
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  border-color: #064969;
+  color: #064969;
+  padding: 12px 20px;
+
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #064969;
+  color: #fff;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom:  5%;
+  margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------------footer--------------------------------- */
+
+#footer {
+  padding: 10%;
+  text-align: center;
+  position: relative;
+  top: 70%;
+  background-color: #064969;
+}
+
+.social-links {
+  /* float: right; */
+  list-style-type: none;
+  font-size: 170%;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.icon-bottom {
+  color: #f6ed80;
+}
+
+#footer p {
+  color: #f6ed80;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+  #title h1 {
+    top: 20%;
+  }
+
+  #title h5 {
+    top: 35%;
+  }
+  .twp{
+    width: 250px;
+  }
+
+  .skills-img {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 1024px)  {
+
+
+
+  #title h1 {
+    font-size: 5rem;
+    top: 15%
+  }
+
+  #title h5 {
+    top: 27.5%;
+  }
+
+  .about-me ::after {
+
+    height: 200px;
+    width: 300px;
+
+  }
+
+  .about-me ::before {
+
+    height: 200px;
+    width: 300px;
+
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  #title h1 {
+    font-size: 3.5rem;
+    top: 10%;
+  }
+
+  #title h5 {
+    top: 18.25%;
+  }
+
+  .twp{
+    width: 200px;
+  }
+
+  .about-me ::after {
+
+    height: 100px;
+    width: 200px;
+
+  }
+
+  .about-me ::before {
+
+    height: 100px;
+    width: 200px;
+
+  }
+
+  .skills-img {
+    height: 850px;
+  }
+
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  #title h1 {
+    font-size: 2.5rem;
+    top: 20%;
+  }
+  #title h5 {
+    /* font-size: 2rem; */
+    top: 35%;
+  }
+
+  .background-image {
+    background-image: url(images/forest_potrait.jpg) !important;
+    /* height: 500px; */
+  }
+
+  .skills-img {
+    height: 1000px;
+  }
+
+.skills h3 {
+  padding: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bla {
+
+}
